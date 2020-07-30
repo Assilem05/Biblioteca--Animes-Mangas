@@ -49,9 +49,9 @@ function listar(){
   });
 }
 
-$(document).on("change", "#lista", function(){
+$(document).on("change", "#listaA", function(){
   var parametros = {
-    "codigo": $("option:selected",("#lista")).val()
+    "codigo": $("option:selected",("#listaA")).val()
   }
    $.ajax({
     type:"post",
